@@ -1,0 +1,93 @@
+### 1. **Understand the Basics**
+   - **What is Propositional Logic?**
+     It’s a branch of logic that deals with propositions (statements that are either true or false) and how they combine using logical connectives (like AND, OR, NOT, etc.).
+   - **Key Components:**
+     - **Propositions**: Statements like "It is raining" or "2 + 2 = 4" that are either true (T) or false (F).
+     - **Logical Connectives**: Symbols like ∧ (AND), ∨ (OR), ¬ (NOT), → (IMPLIES), ↔ (IF AND ONLY IF).
+
+---
+
+### 2. **Learn the Logical Connectives**
+   - **¬ (NOT)**: Flips the truth value. If \( p \) is true, \( ¬p \) is false, and vice versa.
+   - **∧ (AND)**: True only if both propositions are true. Example: \( p ∧ q \) is true only if both \( p \) and \( q \) are true.
+   - **∨ (OR)**: True if at least one proposition is true. Example: \( p ∨ q \) is true if either \( p \) or \( q \) is true (or both).
+   - **→ (IMPLIES)**: \( p → q \) means "if \( p \), then \( q \)". It’s only false when \( p \) is true and \( q \) is false.
+   - **↔ (IF AND ONLY IF)**: \( p ↔ q \) means \( p \) and \( q \) have the same truth value.
+
+---
+
+### 3. **Use Truth Tables**
+   Truth tables are a great way to visualize how logical connectives work. They list all possible truth values of propositions and show the result of combining them.
+
+   Example: Truth table for \( p ∧ q \):
+   | \( p \) | \( q \) | \( p ∧ q \) |
+   |--------|--------|------------|
+   | T      | T      | T          |
+   | T      | F      | F          |
+   | F      | T      | F          |
+   | F      | F      | F          |
+
+   Practice creating truth tables for all the connectives to see how they behave.
+
+---
+
+### 4. **Memorize Key Logical Equivalences**
+   Some equivalences are fundamental and will help you simplify complex expressions:
+   - **Double Negation**: \( ¬(¬p) ≡ p \)
+   - **De Morgan’s Laws**:
+     - \( ¬(p ∧ q) ≡ ¬p ∨ ¬q \)
+     - \( ¬(p ∨ q) ≡ ¬p ∧ ¬q \)
+   - **Distributive Laws**:
+     - \( p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r) \)
+     - \( p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r) \)
+   - **Implication**: \( p → q ≡ ¬p ∨ q \)
+
+---
+
+### 5. **Practice with Real-Life Examples**
+   Relate propositions to everyday situations to make them more intuitive. For example:
+   - Let \( p = \) "It is raining," \( q = \) "I will take an umbrella."
+   - \( p → q \) translates to "If it is raining, then I will take an umbrella."
+
+---
+
+### 6. **Break Down Complex Statements**
+   When faced with a complex statement, break it into smaller parts and analyze each part separately. For example:
+   - \( (p ∧ q) → r \): First evaluate \( p ∧ q \), then see how it implies \( r \).
+
+---
+
+### 7. **Use Mnemonics**
+   - For **De Morgan’s Laws**: "Break the line, change the sign."
+     - \( ¬(p ∧ q) \) becomes \( ¬p ∨ ¬q \).
+     - \( ¬(p ∨ q) \) becomes \( ¬p ∧ ¬q \).
+   - For **Implication**: "If p, then q" is the same as "Either not p, or q."
+
+---
+
+### 8. **Practice, Practice, Practice**
+   - Solve lots of problems, especially truth tables and logical equivalences.
+   - Try translating English sentences into logical expressions and vice versa.
+
+---
+
+### 9. **Visual Aids**
+   - Use Venn diagrams or logic gates (from digital circuits) to visualize how propositions interact.
+
+---
+
+### 10. **Teach Someone Else**
+   Explaining propositional logic to someone else is a great way to reinforce your understanding.
+
+---
+
+### Example Problem:
+Let’s say you have the statement: "If it is sunny, then I will go to the park, and if it is not sunny, then I will stay home."
+- Let \( p = \) "It is sunny," \( q = \) "I will go to the park," \( r = \) "I will stay home."
+- The statement becomes: \( (p → q) ∧ (¬p → r) \).
+
+You can now create a truth table for this expression to see when it’s true or false.
+
+---
+
+By breaking it down and practicing regularly, you’ll find propositional logic much easier to understand and remember. Good luck with your exam! 😊
